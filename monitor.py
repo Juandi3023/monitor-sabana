@@ -5,7 +5,7 @@ import requests
 API_KEY_SERPER = os.getenv("API_KEY_SERPER")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-QUERY = '"Universidad de la Sabana"'
+QUERY = '"Universidad de La Sabana" OR Unisabana OR "Puente del Común"'
 DATA_FILE = "enviados.json"
 
 def cargar_enviados():
